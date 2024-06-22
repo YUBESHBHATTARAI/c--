@@ -1,4 +1,4 @@
-//C++ string using string data type
+// C++ string using string data type
 #include <iostream>
 
 using namespace std;
@@ -7,16 +7,16 @@ int main()
 
 {
 
-// Declaring a string object
+    // Declaring a string object
 
-string str;
+    string str;
 
-cout << "Enter a string: ";
+    cout << "Enter a string: ";
 
-cin.getline(cin, str);
+    cin.getline(cin, str);
 
-cout << "You entered: " << str << endl;
+    cout << "You entered: " << str << endl;
 
-return 0;
-
+    return 0;
 }
+
