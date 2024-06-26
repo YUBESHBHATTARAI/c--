@@ -8,10 +8,10 @@ int sum(int a, int b)
 }
 int main()
 {
-    int a, b, add;
+    int x, y, add;
     cout << "enter the first & second number : "<<endl;
-    cin >> a >> b;
-    add = sum(a, b);
+    cin >> x >> y;
+    add = sum(x, y);
     cout << "the sum of two numbers is " << add;
 
     return 0;
