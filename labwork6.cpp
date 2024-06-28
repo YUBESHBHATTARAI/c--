@@ -29,14 +29,14 @@ int calculate(int num1, int num2, char op)
 }
 int main()
 {
-    int num1, num2;
-    char op;
-    cout << "Enter first number and second number: ";
-    cin >> num1 >> num2;
-    cout << "Enter operator: ";
-    cin >> op;
+    int x, y;
+    char ch;
+    cout << "Enter first number and second number: "<<endl;
+    cin >> x >> y;
+    cout << "Enter  character(operator): ";
+    cin >> ch;
 
-    int result = calculate(num1, num2, op);
+    int result = calculate(x,y,ch);
     cout << "Result is : " << result << endl;
     return 0;
 }
