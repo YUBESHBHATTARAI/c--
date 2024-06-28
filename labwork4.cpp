@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int i = 0, sum = 0, arr[5] = {3, 4, 5, 6, 7};
-    for (i = 0; i <= 5; i++)
+    for (i = 0; i < 5; i++)
     {
         sum = sum + arr[i];
     }
